@@ -1,0 +1,25 @@
+; Engine configuration file.
+; Manaconda's Minigame Mayhem — Godot Spike
+config_version=5
+
+[application]
+
+config/name="Manaconda's Minigame Mayhem — Godot Spike"
+run/main_scene="res://scenes/shell/main.tscn"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+
+[autoload]
+
+App="*res://shared/app.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

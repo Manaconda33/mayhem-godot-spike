@@ -1,0 +1,5 @@
+[
+  {"id":"manaconda","name":"Manaconda","modes":["kart","jam"]},
+  {"id":"paprika","name":"Paprika","modes":["jam"]},
+  {"id":"myth","name":"Myth","modes":["kart","jam"]}
+]

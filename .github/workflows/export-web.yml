@@ -1,0 +1,56 @@
+name: Export Web
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export-web:
+    runs-on: ubuntu-latest
+    container:
+      image: barichello/godot-ci:4.5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Record run start and Godot version
+        run: |
+          echo "Run started at $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          godot --version
+
+      - name: Install Godot export templates
+        run: |
+          GODOT_VERSION="$(cat GODOT_VERSION)"
+          SOURCE_DIR="/root/.local/share/godot/export_templates/${GODOT_VERSION}"
+          if [ ! -d "${SOURCE_DIR}" ]; then
+            SOURCE_DIR="/root/.local/share/godot/templates/${GODOT_VERSION}"
+          fi
+          if [ ! -d "${SOURCE_DIR}" ]; then
+            echo "Godot ${GODOT_VERSION} export templates not found under /root/.local/share/godot." >&2
+            exit 1
+          fi
+          TARGET_DIR="${HOME}/.local/share/godot/export_templates/${GODOT_VERSION}"
+          mkdir -p "$(dirname "${TARGET_DIR}")"
+          if [ "${SOURCE_DIR}" != "${TARGET_DIR}" ]; then
+            cp -a "${SOURCE_DIR}" "${TARGET_DIR}"
+          fi
+          echo "Export templates: ${SOURCE_DIR} -> ${TARGET_DIR}"
+
+      - name: Import project
+        run: godot --headless --editor --quit --path .
+
+      - name: Export Web build
+        run: |
+          mkdir -p build/web
+          godot --headless --export-release "Web" build/web/index.html --path .
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: build/web
