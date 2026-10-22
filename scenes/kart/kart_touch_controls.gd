@@ -36,9 +36,12 @@ func _input(event: InputEvent) -> void:
 			_update_pointer(event.index, event.position, true)
 			get_viewport().set_input_as_handled()
 	elif event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
+		# On touch devices, keep separate screen pointers; the emulated mouse is for ordinary Buttons.
+		if DisplayServer.is_touchscreen_available():
+			return
 		_update_pointer(-1, event.position, event.pressed)
 		get_viewport().set_input_as_handled()
-	elif event is InputEventMouseMotion and _pointer_actions.has(-1):
+	elif event is InputEventMouseMotion and _pointer_actions.has(-1) and not DisplayServer.is_touchscreen_available():
 		_update_pointer(-1, event.position, true)
 		get_viewport().set_input_as_handled()
 

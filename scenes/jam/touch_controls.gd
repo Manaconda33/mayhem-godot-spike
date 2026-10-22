@@ -32,6 +32,9 @@ func _input(event: InputEvent) -> void:
 		_update_joystick(event.position)
 		get_viewport().set_input_as_handled()
 	elif event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
+		# On touch devices, avoid the synthetic mouse moving the joystick when another finger presses a button.
+		if DisplayServer.is_touchscreen_available():
+			return
 		if event.pressed and _joystick_rect().has_point(event.position):
 			_mouse_dragging = true
 			_update_joystick(event.position)
@@ -40,7 +43,7 @@ func _input(event: InputEvent) -> void:
 			_mouse_dragging = false
 			_set_joystick(Vector2.ZERO)
 			get_viewport().set_input_as_handled()
-	elif event is InputEventMouseMotion and _mouse_dragging:
+	elif event is InputEventMouseMotion and _mouse_dragging and not DisplayServer.is_touchscreen_available():
 		_update_joystick(event.position)
 		get_viewport().set_input_as_handled()
 
