@@ -72,3 +72,19 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify deployed Web entrypoint and assets
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          PAGE_URL="${PAGE_URL%/}/"
+          curl --fail --location --silent --show-error --retry 12 --retry-all-errors --retry-delay 5 \
+            --output "$RUNNER_TEMP/pages-index.html" "$PAGE_URL"
+          grep -q '<script src="index.js"></script>' "$RUNNER_TEMP/pages-index.html" || {
+            echo "Deployed HTML does not reference the Godot loader." >&2
+            exit 1
+          }
+          for asset in index.js index.wasm index.pck; do
+            curl --fail --head --location --silent --show-error \
+              --retry 12 --retry-all-errors --retry-delay 5 "${PAGE_URL}${asset}"
+          done
