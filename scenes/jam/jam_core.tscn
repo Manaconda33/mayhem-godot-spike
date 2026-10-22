@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scenes/jam/jam_core.gd" id="1_core"]
+[ext_resource type="Script" path="res://scenes/jam/jam_camera.gd" id="2_camera"]
+[ext_resource type="PackedScene" path="res://scenes/jam/touch_controls.tscn" id="3_touch"]
+
+[node name="JamCore" type="Node2D"]
+script = ExtResource("1_core")
+
+[node name="Camera" type="Node" parent="."]
+script = ExtResource("2_camera")
+
+[node name="HUDLayer" type="CanvasLayer" parent="."]
+
+[node name="TouchControls" parent="HUDLayer" instance=ExtResource("3_touch")]
+
+[node name="HUDLayer" type="CanvasLayer" parent="."]
+
+[node name="TouchControls" parent="HUDLayer" instance=ExtResource("3_touch")]

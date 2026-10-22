@@ -14,4 +14,4 @@ func _on_kart_pressed() -> void:
 
 
 func _on_jam_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/jam/jam_stub.tscn")
+	get_tree().change_scene_to_file("res://scenes/jam/jam_core.tscn")

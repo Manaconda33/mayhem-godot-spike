@@ -55,4 +55,4 @@ unique_name_in_owner = true
 layout_mode = 2
 custom_minimum_size = Vector2(440, 72)
 theme_override_font_sizes/font_size = 28
-text = "Jam — spike stub"
+text = "Jam — core-loop spike"
