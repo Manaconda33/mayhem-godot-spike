@@ -4,7 +4,7 @@ This throwaway spike measures the commit-to-playable cycle time for an agent-bui
 
 ## Pinned engine and render path
 
-The project targets **Godot 4.6.3**, recorded as `4.6.3` in `GODOT_VERSION`. The GitHub Actions container uses `barichello/godot-ci:4.6` and the matching 4.6.3 export templates. The project is GDScript-only and uses the Compatibility renderer for desktop, mobile, and Web. Web thread support is disabled so the export runs from GitHub Pages without special response headers.
+The project targets **Godot 4.6.3**, recorded as `4.6.3` in `GODOT_VERSION`. The GitHub Actions container uses `barichello/godot-ci:4.6`. That tag currently reports `4.6.stable` rather than `4.6.3`; the workflow logs the pin and actual engine version separately and relocates templates matching the container engine. The local Jam smoke check uses the exact 4.6.3 pin. The project is GDScript-only and uses the Compatibility renderer for desktop, mobile, and Web. Web thread support is disabled so the export runs from GitHub Pages without special response headers. For patch-identical CI, the container image or its engine/templates must be updated to 4.6.3.
 
 ## The loop
 

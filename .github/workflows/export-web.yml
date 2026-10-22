@@ -27,18 +27,19 @@ jobs:
       - name: Record run start and Godot version
         run: |
           echo "Run started at $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          echo "GODOT_VERSION pin: $(cat GODOT_VERSION)"
           godot --version
 
       - name: Install Godot export templates
         run: |
-          GODOT_VERSION="$(cat GODOT_VERSION)"
-          TEMPLATE_VERSION="${GODOT_VERSION}.stable"
+          ENGINE_VERSION="$(godot --version)"
+          TEMPLATE_VERSION="$(printf '%s' "${ENGINE_VERSION}" | sed -E 's/^([0-9]+\.[0-9]+(\.[0-9]+)?)\.stable.*/\1.stable/')"
           SOURCE_DIR="/root/.local/share/godot/export_templates/${TEMPLATE_VERSION}"
           if [ ! -d "${SOURCE_DIR}" ]; then
             SOURCE_DIR="/root/.local/share/godot/templates/${TEMPLATE_VERSION}"
           fi
           if [ ! -d "${SOURCE_DIR}" ]; then
-            echo "Godot ${TEMPLATE_VERSION} export templates not found under /root/.local/share/godot." >&2
+            echo "Godot ${TEMPLATE_VERSION} export templates for ${ENGINE_VERSION} not found under /root/.local/share/godot." >&2
             exit 1
           fi
           TARGET_DIR="${HOME}/.local/share/godot/export_templates/${TEMPLATE_VERSION}"
