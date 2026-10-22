@@ -10,7 +10,7 @@ func _ready() -> void:
 
 
 func _on_kart_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/kart/kart_stub.tscn")
+	get_tree().change_scene_to_file("res://scenes/kart/kart_core.tscn")
 
 
 func _on_jam_pressed() -> void:

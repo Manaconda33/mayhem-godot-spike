@@ -1,6 +1,6 @@
 # Manaconda's Minigame Mayhem — Godot Spike
 
-This throwaway spike measures the commit-to-playable cycle time for an agent-built Godot pipeline. The Jam scene is a small 2-on-2 arcade basketball core-loop probe: move, pass, jump-shot, loose-ball recovery, and a guaranteed dunk. Placeholder shapes are intentional; the test target is movement weight, timing, staging, and camera response.
+This throwaway spike measures the commit-to-playable cycle time for an agent-built Godot pipeline. The Jam scene probes a 2-on-2 arcade basketball loop; the Kart scene probes arcade driving, drift, boost, and lap flow. Placeholder shapes are intentional; the test targets are handling, timing, staging, and camera response.
 
 ## Pinned engine and render path
 
@@ -24,6 +24,38 @@ Read the Actions run duration to measure commit-to-playable cycle time. Each run
 | Return to hub | Back button in the top corner | Back button in the top corner |
 
 The three lower-right touch buttons are each 112×112 design pixels. Keyboard and touch both feed the same Godot input actions, including shoot press/release timing.
+
+## Kart controls
+
+| Action | Keyboard | Touch |
+| --- | --- | --- |
+| Steer | A/D or left/right arrows | Hold ◀ / ▶ lower-left |
+| Accelerate | W or up arrow | Hold GAS lower-right |
+| Brake / reverse | S or down arrow | Hold BRAKE lower-right |
+| Drift | Hold Space or Shift while steering above minimum speed | Hold DRIFT lower-right; GAS + DRIFT work together |
+| Respawn at last passed gate | R | RESET button |
+| Toggle debug overlay | F1 | DBG button |
+| Return to hub | Back button in the top corner | Back button in the top corner |
+
+Touch buttons are 112 design pixels square. Keyboard and touch use the same Godot input actions; separate touch pointers keep GAS and DRIFT held together, and steering releases are tracked per pointer.
+
+## Kart feel feedback map
+
+Change the Kart values in `shared/kart_tuning.gd`.
+
+| Feedback | Tuning knobs |
+| --- | --- |
+| Kart feels like a boat | `STEER_RESPONSE`, `LATERAL_GRIP` |
+| Too twitchy at speed | `STEER_SPEED_FALLOFF`, `STEER_LOW_SPEED_MULT` |
+| Drift boost isn't worth it | `DRIFT_CHARGE_RATE`, `DRIFT_BOOST_MULT`, `DRIFT_BOOST_TIME` |
+| Drift is too slippery | `DRIFT_LATERAL_GRIP`, `DRIFT_SLIDE_ACCELERATION` |
+| Can't catch the ghost | `MAX_SPEED`, `GHOST_SPEED`, `ENGINE_ACCELERATION` |
+| Off-road cuts are too easy | `OFFTRACK_MAX_SPEED`, `OFFTRACK_ENGINE_MULT`, `OFFTRACK_DRAG` |
+| Camera makes me sick | `CAMERA_SMOOTHING`, `CAMERA_FOV_BASE`, `CAMERA_FOV_BOOST`, `CAMERA_DISTANCE` |
+| Lap is too short or too long | `TRACK_POINTS`, `GHOST_SPEED` |
+| Track edge or respawn feels unforgiving | `TRACK_HALF_WIDTH`, `TRACK_RESPAWN_OFFSET` |
+
+The F1/DBG overlay reports speed, drift state and charge, next gate, lap time, and FPS. Gate progress is ordered 1 → 2 → 3 → start/finish; R always returns to just after the last passed gate and preserves the current lap state.
 
 ## Feel feedback map
 
@@ -50,11 +82,14 @@ The F1/DBG overlay reports camera zoom, visible-court percentage, and the contro
 - Shots use a simple make probability and a timed perfect-release bonus. Missed shots use a basic rim bounce and can be recovered only by the player team.
 - Athletes, ball, court, crowd, and hoops are generated placeholder shapes; there are no ported or external assets.
 - The roster is only the existing three-entry sample. Jam filters it to Manaconda and Paprika; the real 35-character roster is out of scope.
+- Kart uses a flat generated road, a single drift-boost tier, and a constant-speed Myth pace ghost with no collision. There are no items, weapons, rival collisions, or other opponents.
+- Kart grip, off-road drag, lap timing, and the generated gate markers are intentionally simple. Kart, driver, road, ghost, and effects are placeholder geometry.
 
 ## Definition of done
 
-- The Godot 4.6.3 Actions run imports and exports Web, then deploys the artifact through the GitHub Pages Actions source.
-- The Pages link opens the hub on a phone browser in landscape, and Jam can be entered and exited.
+- The Godot 4.6.3 project pin imports and exports Web, then deploys the artifact through the GitHub Pages Actions source. The required `barichello/godot-ci:4.6` image currently runs 4.6 stable and ships matching templates; its engine patch version differs from the project pin.
+- The Pages link opens the hub on a phone browser in landscape, and both Jam and Kart can be entered and exited.
 - Move, pass/control transfer, jump-shot release, guaranteed close-range dunk, score/reset, and loose-ball recovery paths work.
+- Kart can accelerate, steer, drift-release into a deterministic boost, pass all four ordered gates, complete a lap, and respawn with consistent lap state.
 - Debug staging numbers are inside the camera coverage and near/far athlete height targets.
 - The Actions duration is available as the pipeline cycle-time measure.

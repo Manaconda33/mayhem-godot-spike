@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/kart/kart_touch_controls.gd" id="1_touch"]
+
+[node name="KartTouchControls" type="CanvasLayer"]
+script = ExtResource("1_touch")
