@@ -4,7 +4,7 @@ This throwaway spike measures the commit-to-playable cycle time for an agent-bui
 
 ## Pinned engine and render path
 
-The project targets **Godot 4.5**, recorded as `4.5.stable` in `GODOT_VERSION`. The GitHub Actions container and export templates use the same 4.5 release. The project is GDScript-only and uses the Compatibility renderer for desktop, mobile, and Web. Web thread support is disabled so the export runs from GitHub Pages without special response headers.
+The project targets **Godot 4.6.3**, recorded as `4.6.3` in `GODOT_VERSION`. The GitHub Actions container uses `barichello/godot-ci:4.6` and the matching 4.6.3 export templates. The project is GDScript-only and uses the Compatibility renderer for desktop, mobile, and Web. Web thread support is disabled so the export runs from GitHub Pages without special response headers.
 
 ## The loop
 
@@ -53,7 +53,7 @@ The F1/DBG overlay reports camera zoom, visible-court percentage, and the contro
 
 ## Definition of done
 
-- The Godot 4.5 Actions run imports and exports Web, then deploys the artifact through the GitHub Pages Actions source.
+- The Godot 4.6.3 Actions run imports and exports Web, then deploys the artifact through the GitHub Pages Actions source.
 - The Pages link opens the hub on a phone browser in landscape, and Jam can be entered and exited.
 - Move, pass/control transfer, jump-shot release, guaranteed close-range dunk, score/reset, and loose-ball recovery paths work.
 - Debug staging numbers are inside the camera coverage and near/far athlete height targets.

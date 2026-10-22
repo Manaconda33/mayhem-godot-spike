@@ -19,7 +19,7 @@ jobs:
   export-web:
     runs-on: ubuntu-latest
     container:
-      image: barichello/godot-ci:4.5
+      image: barichello/godot-ci:4.6
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -32,15 +32,16 @@ jobs:
       - name: Install Godot export templates
         run: |
           GODOT_VERSION="$(cat GODOT_VERSION)"
-          SOURCE_DIR="/root/.local/share/godot/export_templates/${GODOT_VERSION}"
+          TEMPLATE_VERSION="${GODOT_VERSION}.stable"
+          SOURCE_DIR="/root/.local/share/godot/export_templates/${TEMPLATE_VERSION}"
           if [ ! -d "${SOURCE_DIR}" ]; then
-            SOURCE_DIR="/root/.local/share/godot/templates/${GODOT_VERSION}"
+            SOURCE_DIR="/root/.local/share/godot/templates/${TEMPLATE_VERSION}"
           fi
           if [ ! -d "${SOURCE_DIR}" ]; then
-            echo "Godot ${GODOT_VERSION} export templates not found under /root/.local/share/godot." >&2
+            echo "Godot ${TEMPLATE_VERSION} export templates not found under /root/.local/share/godot." >&2
             exit 1
           fi
-          TARGET_DIR="${HOME}/.local/share/godot/export_templates/${GODOT_VERSION}"
+          TARGET_DIR="${HOME}/.local/share/godot/export_templates/${TEMPLATE_VERSION}"
           mkdir -p "$(dirname "${TARGET_DIR}")"
           if [ "${SOURCE_DIR}" != "${TARGET_DIR}" ]; then
             cp -a "${SOURCE_DIR}" "${TARGET_DIR}"
