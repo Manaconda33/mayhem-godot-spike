@@ -1,0 +1,675 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/manaconda-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "tools/generate-art/manaconda-prompts.md",
+      "generatedAt": "2026-10-21T02:18:00Z",
+      "sourceRects": [
+        {
+          "sourceImage": "/workspace/generated_images/exec-41dfccf1-593b-4e95-987b-c369f7d0e55d.png",
+          "x": 104,
+          "y": 1,
+          "w": 330,
+          "h": 511,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-41dfccf1-593b-4e95-987b-c369f7d0e55d.png",
+          "x": 580,
+          "y": 1,
+          "w": 350,
+          "h": 511,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-41dfccf1-593b-4e95-987b-c369f7d0e55d.png",
+          "x": 1078,
+          "y": 4,
+          "w": 343,
+          "h": 508,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-41dfccf1-593b-4e95-987b-c369f7d0e55d.png",
+          "x": 107,
+          "y": 513,
+          "w": 340,
+          "h": 502,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-41dfccf1-593b-4e95-987b-c369f7d0e55d.png",
+          "x": 608,
+          "y": 542,
+          "w": 326,
+          "h": 473,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-41dfccf1-593b-4e95-987b-c369f7d0e55d.png",
+          "x": 1089,
+          "y": 511,
+          "w": 347,
+          "h": 504,
+          "sourceScale": 1.0
+        }
+      ],
+      "packaging": "Uniform per-source fit within 60x92 into 64x96 transparent cells; WebP quality88"
+    }
+  },
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/manaconda-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "tools/generate-art/manaconda-prompts.md",
+      "generatedAt": "2026-10-21T02:18:00Z",
+      "sourceRects": [
+        {
+          "sourceImage": "/workspace/generated_images/exec-0e14fa38-2e43-4949-9096-5f4fed1a42f6.png",
+          "x": 28,
+          "y": 20,
+          "w": 331,
+          "h": 349,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-0e14fa38-2e43-4949-9096-5f4fed1a42f6.png",
+          "x": 421,
+          "y": 12,
+          "w": 293,
+          "h": 357,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-0e14fa38-2e43-4949-9096-5f4fed1a42f6.png",
+          "x": 760,
+          "y": 8,
+          "w": 318,
+          "h": 360,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-0e14fa38-2e43-4949-9096-5f4fed1a42f6.png",
+          "x": 1115,
+          "y": 0,
+          "w": 315,
+          "h": 368,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-0e14fa38-2e43-4949-9096-5f4fed1a42f6.png",
+          "x": 11,
+          "y": 373,
+          "w": 387,
+          "h": 296,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-0e14fa38-2e43-4949-9096-5f4fed1a42f6.png",
+          "x": 404,
+          "y": 380,
+          "w": 315,
+          "h": 335,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-0e14fa38-2e43-4949-9096-5f4fed1a42f6.png",
+          "x": 770,
+          "y": 380,
+          "w": 311,
+          "h": 336,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-0e14fa38-2e43-4949-9096-5f4fed1a42f6.png",
+          "x": 1119,
+          "y": 373,
+          "w": 310,
+          "h": 343,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-0e14fa38-2e43-4949-9096-5f4fed1a42f6.png",
+          "x": 45,
+          "y": 714,
+          "w": 304,
+          "h": 357,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-0e14fa38-2e43-4949-9096-5f4fed1a42f6.png",
+          "x": 373,
+          "y": 714,
+          "w": 370,
+          "h": 310,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-0e14fa38-2e43-4949-9096-5f4fed1a42f6.png",
+          "x": 751,
+          "y": 724,
+          "w": 336,
+          "h": 343,
+          "sourceScale": 1.0
+        }
+      ],
+      "packaging": "Uniform per-source fit within 60x92 into 64x96 transparent cells; WebP quality88"
+    }
+  },
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/manaconda-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "tools/generate-art/manaconda-prompts.md",
+      "generatedAt": "2026-10-21T02:18:00Z",
+      "sourceRects": [
+        {
+          "sourceImage": "/workspace/generated_images/exec-54e941b2-5c28-4350-bd89-9fd4df08e2f8.png",
+          "x": 15,
+          "y": 6,
+          "w": 379,
+          "h": 351,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-54e941b2-5c28-4350-bd89-9fd4df08e2f8.png",
+          "x": 399,
+          "y": 28,
+          "w": 320,
+          "h": 325,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-54e941b2-5c28-4350-bd89-9fd4df08e2f8.png",
+          "x": 764,
+          "y": 6,
+          "w": 350,
+          "h": 350,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-54e941b2-5c28-4350-bd89-9fd4df08e2f8.png",
+          "x": 1123,
+          "y": 15,
+          "w": 322,
+          "h": 343,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-54e941b2-5c28-4350-bd89-9fd4df08e2f8.png",
+          "x": 40,
+          "y": 372,
+          "w": 355,
+          "h": 346,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-54e941b2-5c28-4350-bd89-9fd4df08e2f8.png",
+          "x": 396,
+          "y": 389,
+          "w": 365,
+          "h": 326,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-54e941b2-5c28-4350-bd89-9fd4df08e2f8.png",
+          "x": 769,
+          "y": 370,
+          "w": 354,
+          "h": 345,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-54e941b2-5c28-4350-bd89-9fd4df08e2f8.png",
+          "x": 1119,
+          "y": 374,
+          "w": 311,
+          "h": 315,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-54e941b2-5c28-4350-bd89-9fd4df08e2f8.png",
+          "x": 62,
+          "y": 737,
+          "w": 329,
+          "h": 319,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-54e941b2-5c28-4350-bd89-9fd4df08e2f8.png",
+          "x": 403,
+          "y": 736,
+          "w": 345,
+          "h": 312,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-54e941b2-5c28-4350-bd89-9fd4df08e2f8.png",
+          "x": 767,
+          "y": 720,
+          "w": 342,
+          "h": 340,
+          "sourceScale": 1.0
+        }
+      ],
+      "packaging": "Uniform per-source fit within 60x92 into 64x96 transparent cells; WebP quality88"
+    }
+  },
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/manaconda-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "tools/generate-art/manaconda-prompts.md",
+      "generatedAt": "2026-10-21T02:18:00Z",
+      "sourceRects": [
+        {
+          "sourceImage": "/workspace/generated_images/exec-6a505d21-292d-443b-a76e-124c01d690f8.png",
+          "x": 90,
+          "y": 12,
+          "w": 514,
+          "h": 606,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-6a505d21-292d-443b-a76e-124c01d690f8.png",
+          "x": 706,
+          "y": 38,
+          "w": 507,
+          "h": 580,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-6a505d21-292d-443b-a76e-124c01d690f8.png",
+          "x": 88,
+          "y": 711,
+          "w": 522,
+          "h": 520,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-6a505d21-292d-443b-a76e-124c01d690f8.png",
+          "x": 711,
+          "y": 646,
+          "w": 504,
+          "h": 585,
+          "sourceScale": 1.0
+        }
+      ],
+      "packaging": "Uniform per-source fit within 60x92 into 64x96 transparent cells; WebP quality88"
+    }
+  },
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/manaconda-dribble-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "tools/generate-art/manaconda-prompts.md",
+      "generatedAt": "2026-10-21T02:18:00Z",
+      "sourceRects": [
+        {
+          "sourceImage": "/workspace/generated_images/exec-dc4e1fc9-20c5-485a-aca0-9076f5e45c93.png",
+          "x": 22,
+          "y": 9,
+          "w": 418,
+          "h": 429,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-dc4e1fc9-20c5-485a-aca0-9076f5e45c93.png",
+          "x": 460,
+          "y": 10,
+          "w": 424,
+          "h": 428,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-dc4e1fc9-20c5-485a-aca0-9076f5e45c93.png",
+          "x": 902,
+          "y": 14,
+          "w": 427,
+          "h": 424,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-dc4e1fc9-20c5-485a-aca0-9076f5e45c93.png",
+          "x": 1345,
+          "y": 36,
+          "w": 420,
+          "h": 402,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-dc4e1fc9-20c5-485a-aca0-9076f5e45c93.png",
+          "x": 15,
+          "y": 471,
+          "w": 419,
+          "h": 404,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-dc4e1fc9-20c5-485a-aca0-9076f5e45c93.png",
+          "x": 459,
+          "y": 449,
+          "w": 425,
+          "h": 426,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-dc4e1fc9-20c5-485a-aca0-9076f5e45c93.png",
+          "x": 902,
+          "y": 449,
+          "w": 421,
+          "h": 426,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-dc4e1fc9-20c5-485a-aca0-9076f5e45c93.png",
+          "x": 1348,
+          "y": 449,
+          "w": 420,
+          "h": 426,
+          "sourceScale": 1.0
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-050205bc-ec9a-4e1b-8e15-3732aff1e26f.png",
+          "x": 62,
+          "y": 4,
+          "w": 839,
+          "h": 825,
+          "sourceScale": 0.5300882167611847
+        },
+        {
+          "sourceImage": "/workspace/generated_images/exec-050205bc-ec9a-4e1b-8e15-3732aff1e26f.png",
+          "x": 921,
+          "y": 68,
+          "w": 831,
+          "h": 762,
+          "sourceScale": 0.5300882167611847
+        }
+      ],
+      "packaging": "Uniform per-source fit within 60x92 into 64x96 transparent cells; WebP quality88"
+    }
+  }
+]

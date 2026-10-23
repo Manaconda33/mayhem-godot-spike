@@ -1,0 +1,234 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "dunk-360",
+    "src": "./public/assets/animation/manaconda-dunk-360-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 288,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 288,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Fix ONLY pose6 (row2 column1) in this fifteen-pose Manaconda 360 dunk sheet. He must look toward the LEFT EDGE of image: his nose and face MUST be on the LEFT side of his head, his beard LEFT, chest LEFT, back RIGHT, scarf streaming RIGHT. Both hands raised overhead, knees folded. Currently pose6 points RIGHT; redraw pose6 turned180degrees to LEFT. All other14 poses unchanged, same5columns3rows. Preserve true transparency and generous margins. Canonical blue rectangular glasses blackgray beard backward low driftwood branches purple scarf purplegolduniform white sleeve white tights. No numerals, balls or text. The turn sequence now must be right facing, quarterback, fullback, LEFT PROFILE, front, right. This exact directional correction is essential.",
+      "path": "/workspace/generated_images/exec-a34daa74-ab44-46e9-9943-860e79216841.png",
+      "generatedAt": "2026-10-21T14:28:46.296Z",
+      "sourceImage": "/workspace/generated_images/exec-a34daa74-ab44-46e9-9943-860e79216841.png",
+      "sourceSha256": "57b97644365d086504e75d8d4b12082608d23e2c543ab2865193ff3f3f19086c",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 44,
+          "y": 29,
+          "w": 244,
+          "h": 310,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 383,
+          "y": 66,
+          "w": 256,
+          "h": 271,
+          "component": 9
+        },
+        {
+          "sourceIndex": 2,
+          "x": 677,
+          "y": 14,
+          "w": 299,
+          "h": 333,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 997,
+          "y": 8,
+          "w": 322,
+          "h": 331,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1358,
+          "y": 8,
+          "w": 221,
+          "h": 338,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 62,
+          "y": 344,
+          "w": 267,
+          "h": 344,
+          "component": 13
+        },
+        {
+          "sourceIndex": 6,
+          "x": 368,
+          "y": 340,
+          "w": 245,
+          "h": 342,
+          "component": 10
+        },
+        {
+          "sourceIndex": 7,
+          "x": 689,
+          "y": 341,
+          "w": 232,
+          "h": 340,
+          "component": 11
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1013,
+          "y": 385,
+          "w": 329,
+          "h": 306,
+          "component": 14
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1331,
+          "y": 341,
+          "w": 256,
+          "h": 350,
+          "component": 12
+        },
+        {
+          "sourceIndex": 10,
+          "x": 25,
+          "y": 683,
+          "w": 297,
+          "h": 274,
+          "component": 20
+        },
+        {
+          "sourceIndex": 11,
+          "x": 367,
+          "y": 681,
+          "w": 292,
+          "h": 281,
+          "component": 18
+        },
+        {
+          "sourceIndex": 12,
+          "x": 675,
+          "y": 689,
+          "w": 314,
+          "h": 273,
+          "component": 22
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1005,
+          "y": 710,
+          "w": 284,
+          "h": 251,
+          "component": 23
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1328,
+          "y": 687,
+          "w": 282,
+          "h": 275,
+          "component": 21
+        }
+      ],
+      "uniformScale": 0.26285714285714284,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

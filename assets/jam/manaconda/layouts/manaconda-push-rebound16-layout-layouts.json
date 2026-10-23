@@ -1,0 +1,270 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "push",
+    "src": "./public/assets/animation/manaconda-push-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Repair this16-pose Manaconda animation sheet ONLY spacing. Keep exactly16 complete fullbodydrawings in4columns4rows, identical current pose order. SHRINK each figure30% inside its own cell with SAME scale across ALL16; center in cell and keep at least20%emptytransparentpaddingabovebelowleftright. In particular bottom-row raised HANDS MUST NOT TOUCH the previous row's FEET: clear visible transparent gaps between every adjacentbody. Current source has connected figures so cannot be packed. Preserve the current head canon backward flat temple branches darkhair/beard blue rectangular glasses, purplegolduniform purple scarf white sleeve white tights. No balls/shadows/numerals/text. Same11push firstposes and5rebound lastposes. Pose6bothpalmsfullyforward;pose15bothhandscupEMPTYspaceaboveforehead. Do not alter or merge or remove any poses, only redrawsmallerwithspacing. TrueRGBAtransparent background.",
+      "path": "/workspace/generated_images/exec-bfab2690-08d9-406b-998b-00ba3956207d.png",
+      "generatedAt": "2026-10-21T14:43:37.486Z",
+      "sourceImage": "/workspace/generated_images/exec-bfab2690-08d9-406b-998b-00ba3956207d.png",
+      "sourceSha256": "03097235f98d15393899596ebaea8fe58dfb76d1a6a9f23eeb029bb92ba4ae15",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 83,
+          "y": 50,
+          "w": 209,
+          "h": 220,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 447,
+          "y": 51,
+          "w": 227,
+          "h": 220,
+          "component": 3
+        },
+        {
+          "sourceIndex": 2,
+          "x": 800,
+          "y": 72,
+          "w": 204,
+          "h": 200,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1162,
+          "y": 50,
+          "w": 211,
+          "h": 221,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 75,
+          "y": 322,
+          "w": 260,
+          "h": 219,
+          "component": 6
+        },
+        {
+          "sourceIndex": 5,
+          "x": 448,
+          "y": 326,
+          "w": 255,
+          "h": 214,
+          "component": 7
+        },
+        {
+          "sourceIndex": 6,
+          "x": 793,
+          "y": 328,
+          "w": 259,
+          "h": 213,
+          "component": 8
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1163,
+          "y": 320,
+          "w": 214,
+          "h": 221,
+          "component": 5
+        },
+        {
+          "sourceIndex": 8,
+          "x": 70,
+          "y": 581,
+          "w": 225,
+          "h": 210,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 446,
+          "y": 578,
+          "w": 214,
+          "h": 213,
+          "component": 9
+        },
+        {
+          "sourceIndex": 10,
+          "x": 796,
+          "y": 581,
+          "w": 215,
+          "h": 211,
+          "component": 11
+        }
+      ],
+      "uniformScale": 0.3865546218487395,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "rebound",
+    "src": "./public/assets/animation/manaconda-rebound-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Repair this16-pose Manaconda animation sheet ONLY spacing. Keep exactly16 complete fullbodydrawings in4columns4rows, identical current pose order. SHRINK each figure30% inside its own cell with SAME scale across ALL16; center in cell and keep at least20%emptytransparentpaddingabovebelowleftright. In particular bottom-row raised HANDS MUST NOT TOUCH the previous row's FEET: clear visible transparent gaps between every adjacentbody. Current source has connected figures so cannot be packed. Preserve the current head canon backward flat temple branches darkhair/beard blue rectangular glasses, purplegolduniform purple scarf white sleeve white tights. No balls/shadows/numerals/text. Same11push firstposes and5rebound lastposes. Pose6bothpalmsfullyforward;pose15bothhandscupEMPTYspaceaboveforehead. Do not alter or merge or remove any poses, only redrawsmallerwithspacing. TrueRGBAtransparent background.",
+      "path": "/workspace/generated_images/exec-bfab2690-08d9-406b-998b-00ba3956207d.png",
+      "generatedAt": "2026-10-21T14:43:37.486Z",
+      "sourceImage": "/workspace/generated_images/exec-bfab2690-08d9-406b-998b-00ba3956207d.png",
+      "sourceSha256": "03097235f98d15393899596ebaea8fe58dfb76d1a6a9f23eeb029bb92ba4ae15",
+      "sourceRects": [
+        {
+          "sourceIndex": 11,
+          "x": 1163,
+          "y": 597,
+          "w": 212,
+          "h": 194,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 70,
+          "y": 809,
+          "w": 221,
+          "h": 238,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 446,
+          "y": 812,
+          "w": 187,
+          "h": 238,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 802,
+          "y": 835,
+          "w": 192,
+          "h": 217,
+          "component": 16
+        },
+        {
+          "sourceIndex": 15,
+          "x": 1168,
+          "y": 825,
+          "w": 204,
+          "h": 228,
+          "component": 15
+        }
+      ],
+      "uniformScale": 0.3865546218487395,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

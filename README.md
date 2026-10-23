@@ -25,6 +25,10 @@ Read the Actions run duration to measure commit-to-playable cycle time. Each run
 
 The three lower-right touch buttons are each 112×112 design pixels. Keyboard and touch both feed the same Godot input actions, including shoot press/release timing.
 
+## Manaconda asset import test
+
+Choose **ASSET TEST** from the hub to inspect the 29 packaged Manaconda sprite clips. The test scene uses the Conda-Jam WebP sheets and layout rectangles as-is, with play/pause and horizontal flip controls. These sprites are not connected to the Jam core-loop scene. The per-clip import report is in [`docs/ASSET_IMPORT_TEST.md`](docs/ASSET_IMPORT_TEST.md); run `godot --headless --path . --script tests/jam_asset_import_smoke.gd` to recheck all 293 frames.
+
 ## Kart controls
 
 | Action | Keyboard | Touch |
@@ -80,7 +84,7 @@ The F1/DBG overlay reports camera zoom, visible-court percentage, and the contro
 - CPU athletes never gain possession; every reset gives the player team the inbound.
 - Possessions are endless, with no clock, quarters, or opponent score.
 - Shots use a simple make probability and a timed perfect-release bonus. Missed shots use a basic rim bounce and can be recovered only by the player team.
-- Athletes, ball, court, crowd, and hoops are generated placeholder shapes; there are no ported or external assets.
+- The Jam core-loop athletes, ball, court, crowd, and hoops remain generated placeholder shapes. The separate Manaconda asset-import test is the only scene that loads packaged sprite art.
 - The roster is only the existing three-entry sample. Jam filters it to Manaconda and Paprika; the real 35-character roster is out of scope.
 - Kart uses a flat generated road, a single drift-boost tier, and a constant-speed Myth pace ghost with no collision. There are no items, weapons, rival collisions, or other opponents.
 - Kart grip, off-road drag, lap timing, and the generated gate markers are intentionally simple. Kart, driver, road, ghost, and effects are placeholder geometry.

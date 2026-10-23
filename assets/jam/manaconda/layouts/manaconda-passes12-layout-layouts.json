@@ -1,0 +1,214 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "pass-overhead",
+    "src": "./public/assets/animation/manaconda-pass-overhead-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit first sprite sheet, retain EXACT12 poses in4columns3rows and all body/arm/leg poses and crisp pixel shading, but correct Manaconda's head anatomy in ALL12: reference2 shows his canonical LOW driftwood temple crest. Replace the upright thick brown dreadlock-looking crown with small branched driftwood twigs emerging at temples and swept flat BACKWARD hugging skull, not rising vertically, not loc hair, keep dark grayblack curls and beard and BLUE rectangular glasses. True transparent background. Keep full bodies and generous canvas margins, especially overhead hands and feet. NO balls or jersey numerals or labels. All12 distinct original passing poses remain unchanged.",
+      "path": "/workspace/generated_images/exec-c406b12a-fb23-4388-a382-17772992934e.png",
+      "generatedAt": "2026-10-21T14:27:46.004Z",
+      "sourceImage": "/workspace/generated_images/exec-c406b12a-fb23-4388-a382-17772992934e.png",
+      "sourceSha256": "7dd28fe89eb5e8c247d15ca4769c8cfbf6836316dcab79a84eac8b637528bd57",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 52,
+          "y": 41,
+          "w": 261,
+          "h": 343,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 400,
+          "y": 36,
+          "w": 288,
+          "h": 348,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 742,
+          "y": 8,
+          "w": 285,
+          "h": 376,
+          "component": 1
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1121,
+          "y": 38,
+          "w": 313,
+          "h": 346,
+          "component": 3
+        },
+        {
+          "sourceIndex": 4,
+          "x": 32,
+          "y": 424,
+          "w": 356,
+          "h": 322,
+          "component": 5
+        },
+        {
+          "sourceIndex": 5,
+          "x": 420,
+          "y": 429,
+          "w": 280,
+          "h": 318,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.24468085106382978,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "pass-behind",
+    "src": "./public/assets/animation/manaconda-pass-behind-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit first sprite sheet, retain EXACT12 poses in4columns3rows and all body/arm/leg poses and crisp pixel shading, but correct Manaconda's head anatomy in ALL12: reference2 shows his canonical LOW driftwood temple crest. Replace the upright thick brown dreadlock-looking crown with small branched driftwood twigs emerging at temples and swept flat BACKWARD hugging skull, not rising vertically, not loc hair, keep dark grayblack curls and beard and BLUE rectangular glasses. True transparent background. Keep full bodies and generous canvas margins, especially overhead hands and feet. NO balls or jersey numerals or labels. All12 distinct original passing poses remain unchanged.",
+      "path": "/workspace/generated_images/exec-c406b12a-fb23-4388-a382-17772992934e.png",
+      "generatedAt": "2026-10-21T14:27:46.004Z",
+      "sourceImage": "/workspace/generated_images/exec-c406b12a-fb23-4388-a382-17772992934e.png",
+      "sourceSha256": "7dd28fe89eb5e8c247d15ca4769c8cfbf6836316dcab79a84eac8b637528bd57",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 781,
+          "y": 435,
+          "w": 269,
+          "h": 312,
+          "component": 8
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1152,
+          "y": 432,
+          "w": 292,
+          "h": 315,
+          "component": 7
+        },
+        {
+          "sourceIndex": 8,
+          "x": 26,
+          "y": 778,
+          "w": 303,
+          "h": 301,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 345,
+          "y": 779,
+          "w": 353,
+          "h": 300,
+          "component": 11
+        },
+        {
+          "sourceIndex": 10,
+          "x": 721,
+          "y": 779,
+          "w": 395,
+          "h": 300,
+          "component": 12
+        },
+        {
+          "sourceIndex": 11,
+          "x": 1157,
+          "y": 778,
+          "w": 272,
+          "h": 301,
+          "component": 10
+        }
+      ],
+      "uniformScale": 0.24468085106382978,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

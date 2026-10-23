@@ -1,0 +1,103 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "pass",
+    "src": "./public/assets/animation/manaconda-pass-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Repair this exact6-pose Manaconda chestpass sprite sheet. Remove ENTIRE colored/gradient background to GENUINE TRANSPARENT RGBA alpha0, preserving clean pixel edges of all six bodies. No shadows, no glow/halo. Preserve exact6 distinct limbposes,3columns2rows, samefaces/BLUEglasses/graybeards/scarves/purplegolduniforms/whitetights/sneakers. Canonical correction: driftwood templecrest branches project BACKWARD alongskull likebranches sweepingbehind head, NOT vertical antlers. Keepwoodcrest fullycontained withcleartransparentmargin. All6fullbodies andeveryfingerandsneaker complete. Do not addballs/labels/gridlines. Exact6sameposes withtruealpha andbackwardwoodcrest.",
+      "sourcePrompt": "Production basketball sprite sheet: MANACONDA the FIRST captain top-left of reference. Exactly SIX distinct fullbody rightfacing poses in3columns by2rows, readingorder chestpass animation. Same athletic mature mediumbrownman, black/graybeard, BLUE rectangular glasses, graystreakedblackcurls, backwardskullhugging driftwoodbranchcrest, purple scarf, purple/gold Chicagouniform, whitecompressiontights, purplegold sneakers andonewhitesleeve. Preserve canonicalface andproportions all6. Poses:1athletic knees bent emptyhands cupped atwaist;2drawhands intochest elbowswide shoulderscoil;3elbowsbegin straightening wristsforward;4FULL chestpass RELEASE botharms straightforward towardRIGHT atchestheight palmsout thumbsdown fingersspread;5followthrough arms reach forward weightonfrontfoot;6armsrecover down intoreadyathleticstance. Real human limbchanges, sixgenuinelydifferentdrawings. HandsEMPTY no basketballs. Game addsball atreleaseframe4. Samecellfeetbaseline withfullsneakersonsamelevel, samecharactersize, feetplanted. Everyfullbody includingbranchcrest,scarfandextendedfingers safelyinsideitscell withatleast8%cleartransparentmargin. Crisp1990spixelartclusters, darkcontours highlightedmuscles readable64x96. GenuineRGBAtransparentbackground, nofloor/shadow/glow/grid/text/backdrop. Exactly6figures.",
+      "path": "/workspace/generated_images/exec-c8d8663b-0ff1-40a5-bf4c-27e35c5060e0.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-c8d8663b-0ff1-40a5-bf4c-27e35c5060e0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:14:20.323Z",
+      "sourceImage": "/workspace/generated_images/exec-c8d8663b-0ff1-40a5-bf4c-27e35c5060e0.png",
+      "sourceSha256": "f46f0a6a83c9c9ac66e05aab90dfd9f7ab651b8df6fbc28d4e73cde4f0087088",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 42,
+          "y": 5,
+          "w": 403,
+          "h": 481
+        },
+        {
+          "sourceIndex": 1,
+          "x": 550,
+          "y": 6,
+          "w": 425,
+          "h": 481
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1064,
+          "y": 5,
+          "w": 440,
+          "h": 483
+        },
+        {
+          "sourceIndex": 3,
+          "x": 19,
+          "y": 495,
+          "w": 511,
+          "h": 491
+        },
+        {
+          "sourceIndex": 4,
+          "x": 536,
+          "y": 495,
+          "w": 486,
+          "h": 492
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1096,
+          "y": 495,
+          "w": 420,
+          "h": 491
+        }
+      ],
+      "uniformScale": 0.18699186991869918,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

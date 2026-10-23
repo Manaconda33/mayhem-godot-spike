@@ -1,0 +1,214 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "block",
+    "src": "./public/assets/animation/manaconda-block-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Draw Manaconda animation using exact reference head/identity: grayblack curls and beard, BLUE RECTANGULAR glasses, small goldenbrown living driftwood branches emerging temples and swept BACKWARD FLAT hugging skull, NOT upright crown or dreadlocks. Purple scarf purplegolduniform one white sleeve white tights sneakers. TRUE transparent background, no balls, no props, no numerals/text or floorgroundshadows. All full bodies with generous padding no neighboring touch. Same scale. Strict poses count/order, no extra poses. EXACT12 poses,4columns3rows. Row1 BLOCK4: col1crouch, col2jumpbothhandsrise, col3APEXbotharmsFULLYEXTENDEDverticalhandsopen overhead, col4landcrouch. Rows2-3 STEAL8: row2col1defensivestance;col2leanrightarmreaches;col3extendarmwaisthigh;col4CONTACTfullyextendedonehandreachesFARFORWARDandDOWNfingersopen;row3col1rakeextendedhandacrossbody;col2withdrawarm;col3recoverhalfstance;col4ready. Hands empty.",
+      "path": "/workspace/generated_images/exec-6354b5f3-ccd7-4d03-b87b-ae49d8cc4ca0.png",
+      "generatedAt": "2026-10-21T14:36:18.512Z",
+      "sourceImage": "/workspace/generated_images/exec-6354b5f3-ccd7-4d03-b87b-ae49d8cc4ca0.png",
+      "sourceSha256": "6e2ad18a2056c129df6c21ce64e62b1e06231a15ad80136df6005e9c923e5c2a",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 50,
+          "y": 254,
+          "w": 315,
+          "h": 256,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 424,
+          "y": 18,
+          "w": 257,
+          "h": 414,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 773,
+          "y": 1,
+          "w": 241,
+          "h": 461,
+          "component": 1
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1117,
+          "y": 275,
+          "w": 299,
+          "h": 235,
+          "component": 4
+        }
+      ],
+      "uniformScale": 0.19956616052060738,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "steal",
+    "src": "./public/assets/animation/manaconda-steal-right.webp",
+    "columns": 3,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Draw Manaconda animation using exact reference head/identity: grayblack curls and beard, BLUE RECTANGULAR glasses, small goldenbrown living driftwood branches emerging temples and swept BACKWARD FLAT hugging skull, NOT upright crown or dreadlocks. Purple scarf purplegolduniform one white sleeve white tights sneakers. TRUE transparent background, no balls, no props, no numerals/text or floorgroundshadows. All full bodies with generous padding no neighboring touch. Same scale. Strict poses count/order, no extra poses. EXACT12 poses,4columns3rows. Row1 BLOCK4: col1crouch, col2jumpbothhandsrise, col3APEXbotharmsFULLYEXTENDEDverticalhandsopen overhead, col4landcrouch. Rows2-3 STEAL8: row2col1defensivestance;col2leanrightarmreaches;col3extendarmwaisthigh;col4CONTACTfullyextendedonehandreachesFARFORWARDandDOWNfingersopen;row3col1rakeextendedhandacrossbody;col2withdrawarm;col3recoverhalfstance;col4ready. Hands empty.",
+      "path": "/workspace/generated_images/exec-6354b5f3-ccd7-4d03-b87b-ae49d8cc4ca0.png",
+      "generatedAt": "2026-10-21T14:36:18.512Z",
+      "sourceImage": "/workspace/generated_images/exec-6354b5f3-ccd7-4d03-b87b-ae49d8cc4ca0.png",
+      "sourceSha256": "6e2ad18a2056c129df6c21ce64e62b1e06231a15ad80136df6005e9c923e5c2a",
+      "sourceRects": [
+        {
+          "sourceIndex": 4,
+          "x": 8,
+          "y": 524,
+          "w": 310,
+          "h": 263,
+          "component": 5
+        },
+        {
+          "sourceIndex": 5,
+          "x": 359,
+          "y": 530,
+          "w": 370,
+          "h": 257,
+          "component": 7
+        },
+        {
+          "sourceIndex": 6,
+          "x": 742,
+          "y": 527,
+          "w": 391,
+          "h": 260,
+          "component": 6
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1092,
+          "y": 573,
+          "w": 354,
+          "h": 212,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 37,
+          "y": 808,
+          "w": 325,
+          "h": 264,
+          "component": 12
+        },
+        {
+          "sourceIndex": 9,
+          "x": 418,
+          "y": 794,
+          "w": 288,
+          "h": 278,
+          "component": 10
+        },
+        {
+          "sourceIndex": 10,
+          "x": 768,
+          "y": 797,
+          "w": 280,
+          "h": 275,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 1140,
+          "y": 793,
+          "w": 276,
+          "h": 279,
+          "component": 9
+        }
+      ],
+      "uniformScale": 0.19956616052060738,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

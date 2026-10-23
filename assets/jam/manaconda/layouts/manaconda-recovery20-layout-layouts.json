@@ -1,0 +1,326 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "fall",
+    "src": "./public/assets/animation/manaconda-fall-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create production pixel arcade animation for MANACONDA, preserving reference identity: mediumbrown mature muscular man BLUE rectangular glasses grayblack beard/curls BACKWARD skullhugging driftwood crest purple scarf purplegold uniform one white sleeve whitetights purplegold shoes. EMPTY HANDS NO BALLS. No jersey numerals, scenery, floor, props, shadows, labels. True transparent background. Exactly separate full bodies each with generous transparent margins, all fingertips/crest/shoes inside canvas. Consistent figure scale, simulation applies jump. Each frame is a different authored limb pose. Exactly20 poses in5columns4rows readingorder. FIRST10 FALL:1stagger,2leanbackarmsflail,3feetforwardlosingbalance,4bodytilted45degrees,5landonbuttockslegsout,6sitdazed,7palmsonfloor,8onefootunderkneel,9risehalfstanding,10ready. NEXT10 CELEBRATE:1fistclenchwaist,2rightfistrises,3botharmsflexbiceps,4chestproudflex,5rightarmoverheadpoint,6bothhandsoverheadvictory,7bothfistspumpforward,8rightfistchest,9armslower,10ready. Keep all20differentposes; no motiontrails or duplicatefigures.",
+      "path": "/workspace/generated_images/exec-a0813b95-70b1-46d5-9951-1c201ae10be1.png",
+      "generatedAt": "2026-10-21T14:26:14.988Z",
+      "sourceImage": "/workspace/generated_images/exec-a0813b95-70b1-46d5-9951-1c201ae10be1.png",
+      "sourceSha256": "1ba1a8f7c359bdfe9e4d26ac1f88412fbe804b2244ef65e075957ffaaec5fa0c",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 19,
+          "y": 26,
+          "w": 287,
+          "h": 266,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 297,
+          "y": 28,
+          "w": 292,
+          "h": 267,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 543,
+          "y": 66,
+          "w": 293,
+          "h": 210,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 847,
+          "y": 34,
+          "w": 272,
+          "h": 260,
+          "component": 3
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1130,
+          "y": 107,
+          "w": 248,
+          "h": 182,
+          "component": 5
+        },
+        {
+          "sourceIndex": 5,
+          "x": 20,
+          "y": 366,
+          "w": 286,
+          "h": 198,
+          "component": 9
+        },
+        {
+          "sourceIndex": 6,
+          "x": 325,
+          "y": 403,
+          "w": 249,
+          "h": 160,
+          "component": 11
+        },
+        {
+          "sourceIndex": 7,
+          "x": 613,
+          "y": 363,
+          "w": 230,
+          "h": 199,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 876,
+          "y": 315,
+          "w": 216,
+          "h": 245,
+          "component": 7
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1147,
+          "y": 297,
+          "w": 223,
+          "h": 264,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.32280701754385965,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "celebrate",
+    "src": "./public/assets/animation/manaconda-celebrate-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create production pixel arcade animation for MANACONDA, preserving reference identity: mediumbrown mature muscular man BLUE rectangular glasses grayblack beard/curls BACKWARD skullhugging driftwood crest purple scarf purplegold uniform one white sleeve whitetights purplegold shoes. EMPTY HANDS NO BALLS. No jersey numerals, scenery, floor, props, shadows, labels. True transparent background. Exactly separate full bodies each with generous transparent margins, all fingertips/crest/shoes inside canvas. Consistent figure scale, simulation applies jump. Each frame is a different authored limb pose. Exactly20 poses in5columns4rows readingorder. FIRST10 FALL:1stagger,2leanbackarmsflail,3feetforwardlosingbalance,4bodytilted45degrees,5landonbuttockslegsout,6sitdazed,7palmsonfloor,8onefootunderkneel,9risehalfstanding,10ready. NEXT10 CELEBRATE:1fistclenchwaist,2rightfistrises,3botharmsflexbiceps,4chestproudflex,5rightarmoverheadpoint,6bothhandsoverheadvictory,7bothfistspumpforward,8rightfistchest,9armslower,10ready. Keep all20differentposes; no motiontrails or duplicatefigures.",
+      "path": "/workspace/generated_images/exec-a0813b95-70b1-46d5-9951-1c201ae10be1.png",
+      "generatedAt": "2026-10-21T14:26:14.988Z",
+      "sourceImage": "/workspace/generated_images/exec-a0813b95-70b1-46d5-9951-1c201ae10be1.png",
+      "sourceSha256": "1ba1a8f7c359bdfe9e4d26ac1f88412fbe804b2244ef65e075957ffaaec5fa0c",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 24,
+          "y": 588,
+          "w": 277,
+          "h": 252,
+          "component": 16
+        },
+        {
+          "sourceIndex": 11,
+          "x": 304,
+          "y": 560,
+          "w": 270,
+          "h": 282,
+          "component": 15
+        },
+        {
+          "sourceIndex": 12,
+          "x": 596,
+          "y": 596,
+          "w": 241,
+          "h": 246,
+          "component": 18
+        },
+        {
+          "sourceIndex": 13,
+          "x": 856,
+          "y": 592,
+          "w": 249,
+          "h": 251,
+          "component": 17
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1136,
+          "y": 558,
+          "w": 243,
+          "h": 285,
+          "component": 14
+        },
+        {
+          "sourceIndex": 15,
+          "x": 32,
+          "y": 841,
+          "w": 247,
+          "h": 271,
+          "component": 19
+        },
+        {
+          "sourceIndex": 16,
+          "x": 296,
+          "y": 873,
+          "w": 246,
+          "h": 239,
+          "component": 23
+        },
+        {
+          "sourceIndex": 17,
+          "x": 589,
+          "y": 852,
+          "w": 215,
+          "h": 259,
+          "component": 21
+        },
+        {
+          "sourceIndex": 18,
+          "x": 840,
+          "y": 863,
+          "w": 253,
+          "h": 249,
+          "component": 22
+        },
+        {
+          "sourceIndex": 19,
+          "x": 1150,
+          "y": 847,
+          "w": 222,
+          "h": 264,
+          "component": 20
+        }
+      ],
+      "uniformScale": 0.32280701754385965,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

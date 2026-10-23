@@ -1,0 +1,270 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "layup",
+    "src": "./public/assets/animation/manaconda-layup-right.webp",
+    "columns": 3,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Repair sheet1 for production packing. Keep EXACT grid and all listed distinct poses in reading order. SHRINK every drawn body about25% within its own cell, maintaining same figure scale across sheet, and center it so each body has generous EMPTY transparent padding on ALL sides. Neighboring fingers/scarves/shoes must never touch another figure. All full body parts including overhead fingertips and bottom feet must be inside canvas. Preserve TRUE transparent background. Correct ALL heads to the reference2 LOW driftwood temple crest: small branched twigs sweep BACKWARD hugging skull; no upright thick dreadlock-looking crown. Keep darkgrayblackcurls/beard and BLUE rectangular glasses, purple scarf, purplegold uniform, one white sleeve, whitetights and shoes. NO BALLS, shadows, floors, labels, numerals. Do not delete any figures or change motion sequence. Exactly16 disconnected full bodies,4columns4rows. First8 normal layup; last8 reverse layup. Normal release pose5(onebased) and reverse release pose14(onebased) must extend empty hand high.",
+      "path": "/workspace/generated_images/exec-0bb68c99-36cc-4c10-84e5-64b3572712f3.png",
+      "generatedAt": "2026-10-21T14:31:04.965Z",
+      "sourceImage": "/workspace/generated_images/exec-0bb68c99-36cc-4c10-84e5-64b3572712f3.png",
+      "sourceSha256": "1019b65ca0e3828fc48da38b593e9ea78af2da5ce3d7867193c06fc75fb2fe42",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 70,
+          "y": 91,
+          "w": 193,
+          "h": 188,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 401,
+          "y": 55,
+          "w": 184,
+          "h": 230,
+          "component": 3
+        },
+        {
+          "sourceIndex": 2,
+          "x": 721,
+          "y": 48,
+          "w": 200,
+          "h": 231,
+          "component": 2
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1066,
+          "y": 30,
+          "w": 195,
+          "h": 259,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 66,
+          "y": 332,
+          "w": 200,
+          "h": 249,
+          "component": 5
+        },
+        {
+          "sourceIndex": 5,
+          "x": 409,
+          "y": 333,
+          "w": 194,
+          "h": 242,
+          "component": 6
+        },
+        {
+          "sourceIndex": 6,
+          "x": 723,
+          "y": 367,
+          "w": 208,
+          "h": 208,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1071,
+          "y": 389,
+          "w": 197,
+          "h": 179,
+          "component": 8
+        }
+      ],
+      "uniformScale": 0.35384615384615387,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "layup-reverse",
+    "src": "./public/assets/animation/manaconda-layup-reverse-right.webp",
+    "columns": 3,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Repair sheet1 for production packing. Keep EXACT grid and all listed distinct poses in reading order. SHRINK every drawn body about25% within its own cell, maintaining same figure scale across sheet, and center it so each body has generous EMPTY transparent padding on ALL sides. Neighboring fingers/scarves/shoes must never touch another figure. All full body parts including overhead fingertips and bottom feet must be inside canvas. Preserve TRUE transparent background. Correct ALL heads to the reference2 LOW driftwood temple crest: small branched twigs sweep BACKWARD hugging skull; no upright thick dreadlock-looking crown. Keep darkgrayblackcurls/beard and BLUE rectangular glasses, purple scarf, purplegold uniform, one white sleeve, whitetights and shoes. NO BALLS, shadows, floors, labels, numerals. Do not delete any figures or change motion sequence. Exactly16 disconnected full bodies,4columns4rows. First8 normal layup; last8 reverse layup. Normal release pose5(onebased) and reverse release pose14(onebased) must extend empty hand high.",
+      "path": "/workspace/generated_images/exec-0bb68c99-36cc-4c10-84e5-64b3572712f3.png",
+      "generatedAt": "2026-10-21T14:31:04.965Z",
+      "sourceImage": "/workspace/generated_images/exec-0bb68c99-36cc-4c10-84e5-64b3572712f3.png",
+      "sourceSha256": "1019b65ca0e3828fc48da38b593e9ea78af2da5ce3d7867193c06fc75fb2fe42",
+      "sourceRects": [
+        {
+          "sourceIndex": 8,
+          "x": 61,
+          "y": 658,
+          "w": 208,
+          "h": 197,
+          "component": 12
+        },
+        {
+          "sourceIndex": 9,
+          "x": 408,
+          "y": 628,
+          "w": 192,
+          "h": 234,
+          "component": 11
+        },
+        {
+          "sourceIndex": 10,
+          "x": 726,
+          "y": 617,
+          "w": 190,
+          "h": 238,
+          "component": 9
+        },
+        {
+          "sourceIndex": 11,
+          "x": 1074,
+          "y": 619,
+          "w": 198,
+          "h": 249,
+          "component": 10
+        },
+        {
+          "sourceIndex": 12,
+          "x": 64,
+          "y": 872,
+          "w": 218,
+          "h": 260,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 412,
+          "y": 890,
+          "w": 203,
+          "h": 245,
+          "component": 15
+        },
+        {
+          "sourceIndex": 14,
+          "x": 719,
+          "y": 925,
+          "w": 214,
+          "h": 209,
+          "component": 16
+        },
+        {
+          "sourceIndex": 15,
+          "x": 1067,
+          "y": 942,
+          "w": 203,
+          "h": 188,
+          "component": 17
+        }
+      ],
+      "uniformScale": 0.35384615384615387,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

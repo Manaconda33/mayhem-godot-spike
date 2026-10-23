@@ -1,0 +1,236 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "dunk-reverse",
+    "src": "./public/assets/animation/manaconda-dunk-reverse-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Repair this EXACT15-pose5columns3rows Manaconda dunk sheet. Remove the baked jersey digit2 from the back-view figures: alljerseys have NO baked numerals because gameoverlaysnumber. Redraw middle-rowfourthpose (frame9) so botharmsstay HIGH reachingbehindhead, not dropped lowbehindhips; retainreversebackarch andbodyrotation. Frame10continueshighbackwardreach, frame11wristsnapflush. REDUCE eachfigure'ssizewithinitsowncellbyabout15%equally toprovidegenerousTRUEtransparentpaddingaroundallheads/hands/scarves/feet. Samecanonface, blueglasses, graybeard, backwardwoodcrest,purplescarf,purplegolduniform,whitetights/shoes. Same15differentfullbodyposesin5x3readingorder except specified correction. No bakedjerseynumbers,no basketballs,rims,props. GenuineRGBAalpha0background,nofloor/shadow/glow/grid/text. All15bodiesentirelysafelyseparated,nooverlap/touch/clipping.",
+      "sourcePrompt": "Use reference characteridentity/style asreference for REVERSE DUNK. MANACONDA only: athleticmaturemediumbrownman, BLUErectangularglasses, graystreakedblackcurls/beard, backwardskullhuggingwoodbranchcrest,purplescarf,purplegoldjersey/shorts,onewhitesleeve,whitetights,purplegoldsneakers. Exactly15genuinelydifferent fullbodyframes5columns3rows. Redrawall15as a NEW dunk; donotmerelyrepeatreferenceposes. Samecanonface/body/figure scale andfootbaseline. Gameappliesjumptranslation. EmptyhandsNO BALLS; NO rims/hoops/floors/shadows/glows/grid/text. TrueRGBAtransparentbackground. Everyfullbodyincludinghands,hair,scarf safelyseparatedwithgenerousclearalphamargins; no touchingneighborsorclipping. Frameorder: 1rightward approachleftfootgather;2rightlegcoilhandscuphip;3takeoffkneesup;4torsorotatesawayfrombasket;5backviewheadturnsleftshoulder;6backarchedarmsrisebehindhead;7kneesfoldbacktoside;8PEAKbacktobasketbothhandsoverheadbehindhead;9leanbackreachbehindtorso;10backwardoverheadextension;11RELEASEreverseflushbehindhead;12FINISHbackwardwristsnaplowerarms;13unwindtorsoforwardkneesbend;14landabsorbbothfeet;15readyrightfacing. Authenticrotationacrossframes, samecrest/beard/glassesvisiblefromappropriateangles. NOmirrorcopytrick. Eachdrawingmustclearlyshowitslistedlimbpositionswithcoherenttransition andsamecamera exceptintentionalbodyrotation. Classic1990spixelclusters, stronghighlights/darkoutlines, readable64x96, exactly15figures.",
+      "path": "/workspace/generated_images/exec-a814e6d8-f974-415d-92c1-47e3e4596365.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-a814e6d8-f974-415d-92c1-47e3e4596365.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T14:01:23.984Z",
+      "sourceImage": "/workspace/generated_images/exec-a814e6d8-f974-415d-92c1-47e3e4596365.png",
+      "sourceSha256": "50cd09983700a402dcb1b59a1faebccda03284a7389dab238a8a45be1bae7086",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 33,
+          "y": 44,
+          "w": 318,
+          "h": 289,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 408,
+          "y": 61,
+          "w": 242,
+          "h": 272,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 704,
+          "y": 11,
+          "w": 254,
+          "h": 317,
+          "component": 1
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1022,
+          "y": 21,
+          "w": 261,
+          "h": 311,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1366,
+          "y": 27,
+          "w": 229,
+          "h": 315,
+          "component": 3
+        },
+        {
+          "sourceIndex": 5,
+          "x": 51,
+          "y": 364,
+          "w": 255,
+          "h": 263,
+          "component": 7
+        },
+        {
+          "sourceIndex": 6,
+          "x": 388,
+          "y": 370,
+          "w": 239,
+          "h": 281,
+          "component": 9
+        },
+        {
+          "sourceIndex": 7,
+          "x": 705,
+          "y": 349,
+          "w": 217,
+          "h": 302,
+          "component": 6
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1014,
+          "y": 383,
+          "w": 258,
+          "h": 264,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1327,
+          "y": 367,
+          "w": 269,
+          "h": 301,
+          "component": 8
+        },
+        {
+          "sourceIndex": 10,
+          "x": 53,
+          "y": 666,
+          "w": 248,
+          "h": 283,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 400,
+          "y": 680,
+          "w": 237,
+          "h": 270,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 686,
+          "y": 682,
+          "w": 274,
+          "h": 266,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1004,
+          "y": 694,
+          "w": 278,
+          "h": 254,
+          "component": 15
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1322,
+          "y": 683,
+          "w": 274,
+          "h": 268,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.2902208201892745,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

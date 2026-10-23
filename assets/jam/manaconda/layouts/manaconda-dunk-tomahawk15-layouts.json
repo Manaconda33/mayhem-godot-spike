@@ -1,0 +1,236 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "dunk-tomahawk",
+    "src": "./public/assets/animation/manaconda-dunk-tomahawk-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Repair this EXACT15-pose5columns3rows Manaconda dunk sheet. Correct middle-rowfourthpose (frame9): shootingelbow remainsABOVEtheheadwhileuncoilingforward, not alreadydownbelowshoulder. Middle-rowfifthpose(frame10) armfullyreachesHIGHFORWARD. Bottom-rowfirstpose(frame11) does thedownwardwristsnapRELEASE. Preserve behindheadcockatframes6-8. Noearlydownstroke beforeframe11. REDUCE eachfigure'ssizewithinitsowncellbyabout15%equally toprovidegenerousTRUEtransparentpaddingaroundallheads/hands/scarves/feet. Samecanonface, blueglasses, graybeard, backwardwoodcrest,purplescarf,purplegolduniform,whitetights/shoes. Same15differentfullbodyposesin5x3readingorder except specified correction. No bakedjerseynumbers,no basketballs,rims,props. GenuineRGBAalpha0background,nofloor/shadow/glow/grid/text. All15bodiesentirelysafelyseparated,nooverlap/touch/clipping.",
+      "sourcePrompt": "Use reference characteridentity/style asreference for TOMAHAWK DUNK. MANACONDA only: athleticmaturemediumbrownman, BLUErectangularglasses, graystreakedblackcurls/beard, backwardskullhuggingwoodbranchcrest,purplescarf,purplegoldjersey/shorts,onewhitesleeve,whitetights,purplegoldsneakers. Exactly15genuinelydifferent fullbodyframes5columns3rows. Redrawall15as a NEW dunk; donotmerelyrepeatreferenceposes. Samecanonface/body/figure scale andfootbaseline. Gameappliesjumptranslation. EmptyhandsNO BALLS; NO rims/hoops/floors/shadows/glows/grid/text. TrueRGBAtransparentbackground. Everyfullbodyincludinghands,hair,scarf safelyseparatedwithgenerousclearalphamargins; no touchingneighborsorclipping. Frameorder: 1wideleftfootgatherhandship;2kneescoil;3explosiveonefoottakeoffrightkneerises;4onehandgathersoverforehead;5shootingarmbendselbowbehindcrown;6singlehandcockedfarBEHINDHEADotherarmbalances;7backarcheslegsflaredelbowhigh;8PEAKonehanddeepbehindheadelbowbentotherarmout;9shoulderdrivesforwardelbowstartsstraightening;10armfullyextendsHIGHFORWARD;11RELEASEforcefuldownwardchoppingwristsnap;12FINISHshootingarmdowncrossbody;13armslowerkneesfold;14landdeepbend;15ready. Unmistakableonehandcock-behindheadtomahawk; no weapon. Eachdrawingmustclearlyshowitslistedlimbpositionswithcoherenttransition andsamecamera exceptintentionalbodyrotation. Classic1990spixelclusters, stronghighlights/darkoutlines, readable64x96, exactly15figures.",
+      "path": "/workspace/generated_images/exec-f3c2eba4-aa32-4c89-bad6-3426af3a9d4b.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-f3c2eba4-aa32-4c89-bad6-3426af3a9d4b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T14:02:23.406Z",
+      "sourceImage": "/workspace/generated_images/exec-f3c2eba4-aa32-4c89-bad6-3426af3a9d4b.png",
+      "sourceSha256": "0b3dd5c3dfbd7c696c84e4372f8ef388fbf6fecba9f959c209b3b2734dc23455",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 31,
+          "y": 75,
+          "w": 252,
+          "h": 259,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 389,
+          "y": 110,
+          "w": 224,
+          "h": 224,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 695,
+          "y": 49,
+          "w": 267,
+          "h": 293,
+          "component": 2
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1027,
+          "y": 31,
+          "w": 308,
+          "h": 295,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1353,
+          "y": 53,
+          "w": 251,
+          "h": 299,
+          "component": 3
+        },
+        {
+          "sourceIndex": 5,
+          "x": 18,
+          "y": 387,
+          "w": 304,
+          "h": 263,
+          "component": 8
+        },
+        {
+          "sourceIndex": 6,
+          "x": 355,
+          "y": 397,
+          "w": 274,
+          "h": 237,
+          "component": 9
+        },
+        {
+          "sourceIndex": 7,
+          "x": 667,
+          "y": 397,
+          "w": 300,
+          "h": 258,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 990,
+          "y": 385,
+          "w": 325,
+          "h": 271,
+          "component": 7
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1286,
+          "y": 380,
+          "w": 316,
+          "h": 283,
+          "component": 6
+        },
+        {
+          "sourceIndex": 10,
+          "x": 22,
+          "y": 693,
+          "w": 277,
+          "h": 248,
+          "component": 12
+        },
+        {
+          "sourceIndex": 11,
+          "x": 363,
+          "y": 696,
+          "w": 297,
+          "h": 247,
+          "component": 13
+        },
+        {
+          "sourceIndex": 12,
+          "x": 691,
+          "y": 717,
+          "w": 275,
+          "h": 227,
+          "component": 15
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1020,
+          "y": 728,
+          "w": 276,
+          "h": 215,
+          "component": 16
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1339,
+          "y": 710,
+          "w": 254,
+          "h": 233,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.3076923076923077,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

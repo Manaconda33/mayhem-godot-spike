@@ -56,3 +56,10 @@ layout_mode = 2
 custom_minimum_size = Vector2(440, 72)
 theme_override_font_sizes/font_size = 28
 text = "Jam — core-loop spike"
+
+[node name="AssetTestButton" type="Button" parent="CenterContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(440, 72)
+theme_override_font_sizes/font_size = 28
+text = "ASSET TEST — Manaconda sprites"

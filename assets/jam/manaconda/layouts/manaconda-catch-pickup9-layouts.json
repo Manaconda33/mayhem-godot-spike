@@ -1,0 +1,165 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "receive",
+    "src": "./public/assets/animation/manaconda-receive-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit this EXACT9-pose3x3 Manaconda sheet. Remove the small purple ball/orb objects from between cupped hands in poses4(row2col1),8(row3col2),9(row3col3). ALL nine hands must hold only EMPTY AIR; no physical object, no ball, no purpleblob betweenfingers. Preserve same nine distinct limbposes, faces, blueglasses, graybeards, purplegoldjerseys/scarves, whitetights/sneakers. Also correct the driftwood templecrest on everyhead: branches sweep BACKWARD horizontallyalong skull behindhead, never standvertical likeantlers. Retain full complete bodies withcleartransparentpadding inside3x3cells, samebaselines. GenuineRGBAtransparentbackground, no floor/shadow/glow/text. No otherchanges; ninefullbodies exactly.",
+      "sourcePrompt": "Create ONE pixelart production sprite sheet of MANACONDA (FIRST/top-left captain in reference), EXACTLY9 distinct fullbody poses in3columns by3rows, lefttoright thennextrow. Same mature athleticman, mediumbrown skin, graystreakedblack curls/beard, BLUErectangularglasses, BACKWARD skullhugging driftwoodtemplecrest, purple scarf, purplegold uniform, singlewhitearm sleeve, white tights, purplegold sneakers. Canonfaceconsistent. FacesRIGHT threequarterview. First FOUR frames are CATCH:1ready kneesbent handsopen atwaist;2botharms reachforward atchestheight fingersspread;3handsclose tocup invisibleincomingball atchest (GRAB);4draw emptycuppedhands downsecurely waist. Next FIVE frames are BALL PICKUP:5stand lookingdown handsready;6bendknees hingehips reachrighthand halfwaydown;7deepcrouch extendedhand towardfloor fingersopen;8deepcrouch lowesthand cupsEMPTY space nearfloor (GRAB);9rise kneesextend bringing cuppedhandsto waist. NO BALLS anywhere because simulationdrawsball. Nineindependentlydrawn anatomicallycorrect poses, noidenticalrepeatedstance. Samefigure scale andsharedfeetbaseline percell; everybody,finger,scarf andcrest entirelyinsideitsowncell withgenerousTRUEtransparentmargins. Authentic1990s pixelclusters crispedges andhighlightshadows, readableat64x96. GenuineRGBAtransparentbackground, noopaqueorgradientbackgrounds,nofloors/shadows/glows/text/grids. EXACT9fullbodies.",
+      "path": "/workspace/generated_images/exec-78ee4e21-284f-461b-ba97-aff7ecb2b1c2.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-78ee4e21-284f-461b-ba97-aff7ecb2b1c2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:22:37.955Z",
+      "sourceImage": "/workspace/generated_images/exec-78ee4e21-284f-461b-ba97-aff7ecb2b1c2.png",
+      "sourceSha256": "e6fd1909406b9ed05b00a82d9990642654f2152e0a606ab2d81edf3926e9c24e",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 109,
+          "y": 14,
+          "w": 349,
+          "h": 329
+        },
+        {
+          "sourceIndex": 1,
+          "x": 575,
+          "y": 13,
+          "w": 403,
+          "h": 331
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1080,
+          "y": 16,
+          "w": 340,
+          "h": 328
+        },
+        {
+          "sourceIndex": 3,
+          "x": 114,
+          "y": 344,
+          "w": 347,
+          "h": 344
+        }
+      ],
+      "uniformScale": 0.26512968299711814,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "pickup",
+    "src": "./public/assets/animation/manaconda-pickup-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit this EXACT9-pose3x3 Manaconda sheet. Remove the small purple ball/orb objects from between cupped hands in poses4(row2col1),8(row3col2),9(row3col3). ALL nine hands must hold only EMPTY AIR; no physical object, no ball, no purpleblob betweenfingers. Preserve same nine distinct limbposes, faces, blueglasses, graybeards, purplegoldjerseys/scarves, whitetights/sneakers. Also correct the driftwood templecrest on everyhead: branches sweep BACKWARD horizontallyalong skull behindhead, never standvertical likeantlers. Retain full complete bodies withcleartransparentpadding inside3x3cells, samebaselines. GenuineRGBAtransparentbackground, no floor/shadow/glow/text. No otherchanges; ninefullbodies exactly.",
+      "sourcePrompt": "Create ONE pixelart production sprite sheet of MANACONDA (FIRST/top-left captain in reference), EXACTLY9 distinct fullbody poses in3columns by3rows, lefttoright thennextrow. Same mature athleticman, mediumbrown skin, graystreakedblack curls/beard, BLUErectangularglasses, BACKWARD skullhugging driftwoodtemplecrest, purple scarf, purplegold uniform, singlewhitearm sleeve, white tights, purplegold sneakers. Canonfaceconsistent. FacesRIGHT threequarterview. First FOUR frames are CATCH:1ready kneesbent handsopen atwaist;2botharms reachforward atchestheight fingersspread;3handsclose tocup invisibleincomingball atchest (GRAB);4draw emptycuppedhands downsecurely waist. Next FIVE frames are BALL PICKUP:5stand lookingdown handsready;6bendknees hingehips reachrighthand halfwaydown;7deepcrouch extendedhand towardfloor fingersopen;8deepcrouch lowesthand cupsEMPTY space nearfloor (GRAB);9rise kneesextend bringing cuppedhandsto waist. NO BALLS anywhere because simulationdrawsball. Nineindependentlydrawn anatomicallycorrect poses, noidenticalrepeatedstance. Samefigure scale andsharedfeetbaseline percell; everybody,finger,scarf andcrest entirelyinsideitsowncell withgenerousTRUEtransparentmargins. Authentic1990s pixelclusters crispedges andhighlightshadows, readableat64x96. GenuineRGBAtransparentbackground, noopaqueorgradientbackgrounds,nofloors/shadows/glows/text/grids. EXACT9fullbodies.",
+      "path": "/workspace/generated_images/exec-78ee4e21-284f-461b-ba97-aff7ecb2b1c2.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-78ee4e21-284f-461b-ba97-aff7ecb2b1c2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:22:37.955Z",
+      "sourceImage": "/workspace/generated_images/exec-78ee4e21-284f-461b-ba97-aff7ecb2b1c2.png",
+      "sourceSha256": "e6fd1909406b9ed05b00a82d9990642654f2152e0a606ab2d81edf3926e9c24e",
+      "sourceRects": [
+        {
+          "sourceIndex": 4,
+          "x": 584,
+          "y": 340,
+          "w": 329,
+          "h": 347
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1077,
+          "y": 384,
+          "w": 370,
+          "h": 303
+        },
+        {
+          "sourceIndex": 6,
+          "x": 115,
+          "y": 738,
+          "w": 404,
+          "h": 277
+        },
+        {
+          "sourceIndex": 7,
+          "x": 624,
+          "y": 744,
+          "w": 298,
+          "h": 271
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1080,
+          "y": 689,
+          "w": 350,
+          "h": 326
+        }
+      ],
+      "uniformScale": 0.26512968299711814,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

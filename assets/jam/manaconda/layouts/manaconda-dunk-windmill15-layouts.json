@@ -1,0 +1,235 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "dunk-windmill",
+    "src": "./public/assets/animation/manaconda-dunk-windmill-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create MANACONDA WINDMILL DUNK animation by redrawing all15figures ofFIRSTreference as fifteen different successive WINDMILL finishing poses, same5columns3rows. Preserve exactManacondacanonface/beard/blueglasses/backwardwoodycrest/purplescarf/purplegolduniform/onewhitesleeve/whitetights/sneakers. FacesRIGHT3quarter, wholebody. NO ball:gameusesphysicalball. Distinctposeorder:1leftfootgatherhandsrighthip;2deepkneecoilrightarmstartsbackswing;3onefoottakeoffleftkneelift;4rightarmextendsBACKshoulderheight;5rightarmcirclesDOWNbehindehip;6rightarmcurvesforwardLOWnearknee;7rightarmcomesUPinfrontatwaist;8PEAKrightarmbigcircleinfrontatchestleftarmcounterbalanceslegsflared;9rightarmrisesabovehead;10rightarmfullyoverheadreachesforwardtowardrim;11RELEASErightarmwhipsdownwristflush;12FINISHfollowthroughrightarmdownleftarmout;13descendkneesfold;14landdeepbend;15recoverready. All15genuineunique drawings, not repeats or warpedcopies. Consistentbody scale/feetbaseline insidecells; simulationmovesactorinair. All15fullbodiesandhands/scarves/crestseparatewithgenerousalpha margins, NO touchingneighbors orclippedouterparts. Bold1990spixelclusters crispedges litmuscles, read64x96. TrueRGBAtransparentbackground, nofloor/hoop/ball/shadow/glow/grid/text. Fifteenfigures exactly.",
+      "path": "/workspace/generated_images/exec-3918884a-f91d-4828-a335-0f8c1791c632.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-3918884a-f91d-4828-a335-0f8c1791c632.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:42:15.910Z",
+      "sourceImage": "/workspace/generated_images/exec-3918884a-f91d-4828-a335-0f8c1791c632.png",
+      "sourceSha256": "9010c4171974643736a73c41bca097f290378ad57b8045a7181e92b3c925916f",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 19,
+          "y": 15,
+          "w": 244,
+          "h": 336,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 343,
+          "y": 69,
+          "w": 300,
+          "h": 276,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 646,
+          "y": 2,
+          "w": 319,
+          "h": 342,
+          "component": 1
+        },
+        {
+          "sourceIndex": 3,
+          "x": 958,
+          "y": 14,
+          "w": 372,
+          "h": 308,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1316,
+          "y": 19,
+          "w": 280,
+          "h": 324,
+          "component": 4
+        },
+        {
+          "sourceIndex": 5,
+          "x": 14,
+          "y": 373,
+          "w": 337,
+          "h": 299,
+          "component": 10
+        },
+        {
+          "sourceIndex": 6,
+          "x": 339,
+          "y": 386,
+          "w": 304,
+          "h": 286,
+          "component": 11
+        },
+        {
+          "sourceIndex": 7,
+          "x": 612,
+          "y": 356,
+          "w": 403,
+          "h": 292,
+          "component": 9
+        },
+        {
+          "sourceIndex": 8,
+          "x": 977,
+          "y": 321,
+          "w": 348,
+          "h": 369,
+          "component": 7
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1293,
+          "y": 336,
+          "w": 316,
+          "h": 336,
+          "component": 8
+        },
+        {
+          "sourceIndex": 10,
+          "x": 12,
+          "y": 667,
+          "w": 293,
+          "h": 294,
+          "component": 12
+        },
+        {
+          "sourceIndex": 11,
+          "x": 312,
+          "y": 668,
+          "w": 343,
+          "h": 292,
+          "component": 13
+        },
+        {
+          "sourceIndex": 12,
+          "x": 675,
+          "y": 680,
+          "w": 286,
+          "h": 286,
+          "component": 15
+        },
+        {
+          "sourceIndex": 13,
+          "x": 997,
+          "y": 690,
+          "w": 282,
+          "h": 276,
+          "component": 16
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1297,
+          "y": 677,
+          "w": 307,
+          "h": 289,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.24932249322493225,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

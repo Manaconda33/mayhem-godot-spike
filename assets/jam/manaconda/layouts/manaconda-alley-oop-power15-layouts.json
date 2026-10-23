@@ -1,0 +1,235 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "alley-oop-power",
+    "src": "./public/assets/animation/manaconda-alley-oop-power-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 288,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Production15-pose MANACONDA ALLEY-OOP POWER FINISH animation sheet usingreferenceidentity. Exactly5columns3rows; all15uniquecompletefullbodieswithgenerous15%transparentmargins. Manaconda mediumbrownmatureathleticman, BLUErectangularglasses, blackgraybeard/curls, backwardskullhuggingwoodbranchcrest,purplescarf,purplegolduniform/onewhitesleeve/whitetights/purplegoldshoes. Samefigure scale/rootbaseline, gameappliesairmovement. HandsEMPTYthroughout, NO balls because physicsdrawsthetravellinglob. First6poses:1anticipateincomingpassheadlooksupperrightbothhandsopen;2bendkneesreachbotharmsforwardup;3TAKEOFFbotharmsreachoverheadkneesdrive;4risingbothhandsOPENtowardinvisiblelob;5fingersspreadhandsreadyABOVEforehead;6GRABbothhandscupEMPTYspaceaboveheadwhileairborne. Then 7securecatchhandsaboveforeheadkneesfold;8PEAKbothhandshighlegsflared;9gatherforwardtowardrim;10botharmsextendHIGHFORWARD;11RELEASEtwohandwristsnap;12FINISHforcefuldownflush;13lowerarmskneesfold;14landing;15ready. All15specificindependentlydrawnposes, no duplicateholds, armsclearlyopentocatchthencloseatframe6. Right3quarterviewexceptintentionalreversebodyrotation. Nojerseynumerals,rims,floors,props,shadows,glows,grid,text. Crisp1990spixelclustersboldhighlights, trueRGBAalpha0background. Everyhead/crest/scarf/finger/sneakerinsideowncell, noedgeclippingorneighbortouching.",
+      "path": "/workspace/generated_images/exec-8951b00a-9fcd-4b7d-8f0a-97d664fa61c5.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-8951b00a-9fcd-4b7d-8f0a-97d664fa61c5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T14:16:36.954Z",
+      "sourceImage": "/workspace/generated_images/exec-8951b00a-9fcd-4b7d-8f0a-97d664fa61c5.png",
+      "sourceSha256": "0fa47d4fcd86feffc7d0c7022ce661d72675d8da71590181356a53d369ba18c0",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 31,
+          "y": 49,
+          "w": 307,
+          "h": 307,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 363,
+          "y": 61,
+          "w": 319,
+          "h": 297,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 656,
+          "y": 5,
+          "w": 291,
+          "h": 353,
+          "component": 1
+        },
+        {
+          "sourceIndex": 3,
+          "x": 963,
+          "y": 15,
+          "w": 264,
+          "h": 347,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1301,
+          "y": 17,
+          "w": 278,
+          "h": 332,
+          "component": 3
+        },
+        {
+          "sourceIndex": 5,
+          "x": 18,
+          "y": 367,
+          "w": 273,
+          "h": 307,
+          "component": 7
+        },
+        {
+          "sourceIndex": 6,
+          "x": 341,
+          "y": 364,
+          "w": 359,
+          "h": 302,
+          "component": 6
+        },
+        {
+          "sourceIndex": 7,
+          "x": 675,
+          "y": 380,
+          "w": 272,
+          "h": 306,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 938,
+          "y": 387,
+          "w": 350,
+          "h": 295,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1267,
+          "y": 410,
+          "w": 335,
+          "h": 273,
+          "component": 10
+        },
+        {
+          "sourceIndex": 10,
+          "x": 30,
+          "y": 670,
+          "w": 313,
+          "h": 290,
+          "component": 15
+        },
+        {
+          "sourceIndex": 11,
+          "x": 362,
+          "y": 672,
+          "w": 283,
+          "h": 291,
+          "component": 16
+        },
+        {
+          "sourceIndex": 12,
+          "x": 659,
+          "y": 698,
+          "w": 305,
+          "h": 266,
+          "component": 18
+        },
+        {
+          "sourceIndex": 13,
+          "x": 978,
+          "y": 703,
+          "w": 297,
+          "h": 260,
+          "component": 20
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1299,
+          "y": 690,
+          "w": 285,
+          "h": 275,
+          "component": 17
+        }
+      ],
+      "uniformScale": 0.26062322946175637,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

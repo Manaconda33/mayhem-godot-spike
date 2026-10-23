@@ -1,0 +1,155 @@
+[
+  {
+    "athlete": "manaconda",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/manaconda-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit this exact10-pose Manaconda basketball shooting sprite sheet to repair padding ONLY while preserving the same ten individually drawn poses, canon face, blue glasses, gray beard, backward wooden crest, purple scarf and uniform. Keep5 columns by2 rows. Give EVERY figure generous transparent space at least8% of cellwidth on left/right and8% of cellheight above crest/raised fingertips and below sneakers. The fifth top-row pose currently has its crest cut by the top edge: restore the complete backward-pointing driftwood crest. The first bottom-row release hand is too close to the rowabove; give all raised hands complete clear margin. All ten full bodies completely separated with no clipped tips. No extra poses or omissions. Maintain exact same limbs/shooting progression as supplied. Empty hands no balls. True RGBA TRANSPARENT background with no ground, no shadows, no text, no opaque backdrops. Crisp1990s pixel sprite style. Preserve same feet baseline within cells; game applies jump movement.",
+      "sourcePrompt": "Create ONE production basketball sprite animation sheet for MANACONDA, the first/top-left captain in supplied reference. EXACTLY TEN different full-body poses in5 columns by2 rows, ordered left to right then next row. Character: athletic mature man medium-brown skin, rectangular BLUE glasses, black curls streaked gray, black/gray beard, branching driftwood crest pointing BACKWARD hugging skull, purple scarf trailing behind, purple/gold basketball uniform, white compression tights, purple/gold sneakers, one white arm sleeve. Canonical same identity all10. Facing RIGHT in three-quarter side view throughout. Animate a smooth classic basketball jump shot. Pose1 knees flexed hands cradle EMPTY invisible ball at waist;2 deeper crouch elbows gather;3 leg extension starting takeoff hands rising chest;4 toes pointed legs extending hands to forehead;5 airborne hands above forehead elbows bent;6 shooting arm fully extends above head wrist flick while guide hand opens (RELEASE/PEAK);7 high extended wrist follow-through guidehand lower;8 descending knees fold and arm stays up;9 landing both feet knees absorbing impact arm drops;10 returning athletic stance arms relaxed. All ten poses distinct handdrawn limb positions. IMPORTANT feet use SAME CELL BASELINE in all10 cells: game applies actual jump translation, do not bake vertical travel into sheet. Full body and crest and scarf completely within every equal cell with generous transparent padding. Crisp1990s pixel sprite clusters and bold lit muscles/ink edges, readable64x96. NO basketballs, no text, no numbers, no grids, no ground, no shadows, no gradients. Genuine transparent RGBA background. Exactly10 figures, no extra or missing poses.",
+      "path": "/workspace/generated_images/exec-430780ce-72e1-4d1f-80d5-ce54cf74e9c9.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-430780ce-72e1-4d1f-80d5-ce54cf74e9c9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T12:57:22.981Z",
+      "sourceImage": "/workspace/generated_images/exec-430780ce-72e1-4d1f-80d5-ce54cf74e9c9.png",
+      "sourceSha256": "a99da563edd38828ef933b2a5cfc2c3ec9916302f8b6dd32c45144c2b962dfec",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 14,
+          "y": 63,
+          "w": 297,
+          "h": 321
+        },
+        {
+          "sourceIndex": 1,
+          "x": 425,
+          "y": 71,
+          "w": 298,
+          "h": 312
+        },
+        {
+          "sourceIndex": 2,
+          "x": 841,
+          "y": 30,
+          "w": 330,
+          "h": 356
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1232,
+          "y": 11,
+          "w": 318,
+          "h": 376
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1626,
+          "y": 6,
+          "w": 331,
+          "h": 381
+        },
+        {
+          "sourceIndex": 5,
+          "x": 13,
+          "y": 386,
+          "w": 368,
+          "h": 403
+        },
+        {
+          "sourceIndex": 6,
+          "x": 428,
+          "y": 404,
+          "w": 347,
+          "h": 386
+        },
+        {
+          "sourceIndex": 7,
+          "x": 829,
+          "y": 421,
+          "w": 329,
+          "h": 368
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1222,
+          "y": 457,
+          "w": 322,
+          "h": 333
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1627,
+          "y": 472,
+          "w": 325,
+          "h": 318
+        }
+      ],
+      "uniformScale": 0.228287841191067,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]
